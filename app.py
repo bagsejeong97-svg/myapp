@@ -21,7 +21,7 @@ st.set_page_config(
     layout='centered',
 )
 
-st.title('✈ Render 배포 연습 앱')
+st.title('✈ Render 배포 연습 앱V2')
 st.write('이 화면이 보이면 앱이 정상적으로 실행되고 있다는 것입니다.')
 
 st.divider()
