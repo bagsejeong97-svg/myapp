@@ -41,7 +41,7 @@ streamlit run app.py
 
 ```bash
 git init
-git add app.py requirements.txt .gitignore README.md
+git add 1app.py requirements.txt .gitignore README.md
 git commit -m "Add Render deployment practice app"
 git branch -M main
 git remote add origin <GitHub 저장소 주소>
@@ -80,7 +80,7 @@ Render는 웹 서비스가 `0.0.0.0`에 바인딩하고 Render가 지정한 `POR
 
 ## 4. 파일 설명
 
-- `app.py`: Streamlit 화면, 인사말 기능, `APP_GREETING` 환경변수 읽기
+- `1app.py`: Streamlit 화면, 인사말 기능, `APP_GREETING` 환경변수 읽기
 - `requirements.txt`: 앱 실행에 필요한 Python 패키지
 - `.gitignore`: Git에 포함하지 않을 가상환경, 캐시, 비밀정보 파일
 - `README.md`: 로컬 환경변수 설정과 GitHub·Render 배포 안내
